@@ -27,4 +27,4 @@ chmod +x GetScreenLocations
 
 ```./GetScreenLocations /dev/input/event1 30```
 
-The program will ask you to press each location 5 times and will pause between locations. Be careful to not touch anything during that second, or you can overlap the events. If you need to start over, you can quit with control-C.
+The program will ask you to press each location 5 times and will pause between locations. (sometimes it'll read multiple presses at a time, this is fine) Be careful to not touch anything during that second, or you can overlap the events. If you need to start over, you can quit with control-C.
